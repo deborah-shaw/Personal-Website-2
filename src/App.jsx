@@ -2,6 +2,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/home.jsx'
 import About from './pages/about.jsx'
 import HeadsInTheCloud from './pages/headsInTheCloud.jsx'
+import UsGeographyQuiz from './pages/usGeographyQuiz.jsx'
 import Cst300 from './pages/cst300.jsx'
 import Cst338 from './pages/cst338.jsx'
 import Cst363 from './pages/cst363.jsx'
@@ -23,6 +24,7 @@ function App() {
             <Route path="/" element={<Home/>} />
             <Route path="/about" element={<About/>} />
             <Route path="/headsInTheCloud" element={<HeadsInTheCloud/>} />
+            <Route path="/usGeographyQuiz" element={<UsGeographyQuiz/>} />
             <Route path="/cst300" element={<Cst300/>} />
             <Route path="/cst338" element={<Cst338/>} />
             <Route path="/cst363" element={<Cst363/>} />

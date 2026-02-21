@@ -7,9 +7,9 @@ function Nav(){
     const [showDropdown, setShowDropdown] = useState(false);
 
     const coursePaths = [
+        "/headsInTheCloud", "/usGeographyQuiz",
         "/cst300", "/cst338", "/cst363", "/cst311", "/cst336",
         "/cst462", "/cst383", "/cst489", "/cst499", "/cst334",
-        "/headsInTheCloud"
     ];
     const isCourseSelected = coursePaths.includes(location.pathname);
 
@@ -43,6 +43,7 @@ function Nav(){
                         }}
                     >
                         <Link to="/headsInTheCloud" className={location.pathname === "/headsInTheCloud" ? "current" : ""}>Heads in the Cloud - RDF</Link><br/>
+                        <Link to="/usGeographyQuiz" className={location.pathname === "/usGeographyQuiz" ? "current" : ""}>US Geography Quiz</Link><br/>
                         <Link to="/cst300" className={location.pathname === "/cst300" ? "current" : ""}>CST300 - Major ProSeminar</Link><br/>
                         <Link to="/cst338" className={location.pathname === "/cst338" ? "current" : ""}>CST338 - Software Design</Link><br/>
                         <Link to="/cst363" className={location.pathname === "/cst363" ? "current" : ""}>CST363 - Introduction to Database Systems</Link><br/>
