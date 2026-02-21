@@ -24,7 +24,7 @@ function Nav(){
                 onMouseLeave={() => setShowDropdown(false)}
                 style={{ display: 'inline-block', position: 'relative', marginLeft: '20px' }}
             >
-                <span style={{ cursor: 'pointer', fontFamily: "'Pacifico', cursive", fontSize: '1.5em', color: isCourseSelected ? 'purple' : 'gray' }}>CS Projects ▼</span>
+                <span style={{ cursor: 'pointer', fontFamily: "'Pacifico', cursive", fontSize: '1.5em', color: isCourseSelected ? 'purple' : 'gray' }}>Projects▼</span>
 
                 {/* Dropdown menu */}
                 {showDropdown && (

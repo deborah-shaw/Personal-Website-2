@@ -4,10 +4,10 @@ function Footer(){
     return(
         <footer>
             <hr/>
-            Shaw &copy;{new Date().getFullYear()} CSUMB ILP Portfolio
+            Deborah's Personal Website &copy;{new Date().getFullYear()}
             <br/><br/>
             <figure>
-                <img src="/cloud-test/img/csumb2.jpg" alt="Logo of CSUMB" style={{ maxWidth: "100px", maxHeight: "100px", borderRadius: "12px" }} />
+                <img src="/cloud-test/img/logo-brain.jpg" alt="Logo of CSUMB" style={{ maxWidth: "100px", maxHeight: "100px", borderRadius: "12px" }} />
             </figure>
         </footer>
     );
