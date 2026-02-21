@@ -17,11 +17,11 @@ function cst363(){
                 <h3>Projects</h3>
 
                 <h4>MongoDB and Spring Boot Prescription System</h4>
-                <a href="/cloud-test/projects/cst363_MongoDB_and_Spring_Boot_project.zip"><h5>Project</h5></a>
+                <a href="/Personal-Website-2/projects/cst363_MongoDB_and_Spring_Boot_project.zip"><h5>Project</h5></a>
 
                 <h4>Design a MySQL Database for Prescription System</h4>
-                <a href="/cloud-test/projects/cst363_mysql_database_report.pdf"><h5>Report</h5></a>
-                <a href="/cloud-test/projects/cst363_mysql_database_project.zip"><h5>Project</h5></a>
+                <a href="/Personal-Website-2/projects/cst363_mysql_database_report.pdf"><h5>Report</h5></a>
+                <a href="/Personal-Website-2/projects/cst363_mysql_database_project.zip"><h5>Project</h5></a>
             </div>
             <Footer/>
         </>

@@ -17,10 +17,10 @@ function cst338(){
                 <h3>Projects</h3>
 
                 <h4>Monster Maker</h4>
-                <a href="/cloud-test/projects/cst338_monster_maker.zip"><h5>Monster Maker</h5></a>
+                <a href="/Personal-Website-2/projects/cst338_monster_maker.zip"><h5>Monster Maker</h5></a>
 
                 <h4>Library Program</h4>
-                <a href="/cloud-test/projects/cst338_library_program.zip"><h5>Library Program</h5></a>
+                <a href="/Personal-Website-2/projects/cst338_library_program.zip"><h5>Library Program</h5></a>
             </div>
             <Footer/>
         </>

@@ -22,7 +22,7 @@ function Cst311(){
                     <li>Created a Server</li>
                     <li>Created a Certificate</li>
                 </ul>
-                <a href="/cloud-test/projects/cst311_client_server_project.zip"><h5>Project</h5></a>
+                <a href="/Personal-Website-2/projects/cst311_client_server_project.zip"><h5>Project</h5></a>
             </div>
             <Footer/>
         </>

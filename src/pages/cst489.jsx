@@ -18,16 +18,16 @@ function cst489(){
 
                 <p>Capstone Proposal</p>
 
-                <iframe src="/cloud-test/projects/cst489_Capstone_Proposal.pdf" width="100%" height="600px">
+                <iframe src="/Personal-Website-2/projects/cst489_Capstone_Proposal.pdf" width="100%" height="600px">
                     This browser does not support PDFs. Please download the PDF instead:
-                    <a href="/cloud-test/projects/cst489_Capstone_Proposal.pdf">Download PDF</a>
+                    <a href="/Personal-Website-2/projects/cst489_Capstone_Proposal.pdf">Download PDF</a>
                 </iframe>
 
                 <p>Status Report</p>
 
-                <iframe src="/cloud-test/projects/cst489_Status_Update.pdf" width="100%" height="600px">
+                <iframe src="/Personal-Website-2/projects/cst489_Status_Update.pdf" width="100%" height="600px">
                     This browser does not support PDFs. Please download the PDF instead:
-                    <a href="/cloud-test/projects/cst489_Status_Update.pdf">Download PDF</a>
+                    <a href="/Personal-Website-2/projects/cst489_Status_Update.pdf">Download PDF</a>
                 </iframe>
             </div>
             <Footer/>

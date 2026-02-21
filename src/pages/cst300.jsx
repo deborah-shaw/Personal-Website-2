@@ -22,9 +22,9 @@ function Cst300(){
 
                 <h4>Final Project</h4>
 
-                <iframe src="/cloud-test/projects/cst300_ethics_paper.pdf" width="100%" height="600px">
+                <iframe src="/Personal-Website-2/projects/cst300_ethics_paper.pdf" width="100%" height="600px">
                     This browser does not support PDFs. Please download the PDF instead:
-                    <a href="/cloud-test/projects/cst300_ethics_paper.pdf">Download PDF</a>
+                    <a href="/Personal-Website-2/projects/cst300_ethics_paper.pdf">Download PDF</a>
                 </iframe>
             </div>
             <Footer/>

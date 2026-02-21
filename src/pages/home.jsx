@@ -10,7 +10,7 @@ function Home(){
             <Nav/><br/><br/>
             <main>
                 <figure>
-                    <img src="/cloud-test/img/photo-ds.jpg" alt="Picture of Deborah Shaw" style={{ borderRadius: "50%" }} />
+                    <img src="/Personal-Website-2/img/photo-ds.jpg" alt="Picture of Deborah Shaw" style={{ borderRadius: "50%" }} />
                 </figure><br/>
                 <div>
                     Hello! <br/>
