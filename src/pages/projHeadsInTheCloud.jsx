@@ -3,7 +3,7 @@ import Nav from '../components/nav.jsx'
 import Footer from '../components/footer.jsx'
 import { useState } from 'react';
 
-function HeadsInTheCloud(){
+function ProjHeadsInTheCloud(){
 
     const [film, setFilm] = useState('');
     const [loading, setLoading] = useState(false);
@@ -82,7 +82,7 @@ function HeadsInTheCloud(){
     );
 }
 
-export default HeadsInTheCloud
+export default ProjHeadsInTheCloud
 
 // -----------------------------
 // Helper functions (can be placed in a separate file and imported)

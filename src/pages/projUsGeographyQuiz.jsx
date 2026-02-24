@@ -2,7 +2,7 @@ import Header from '../components/header.jsx'
 import Nav from '../components/nav.jsx'
 import Footer from '../components/footer.jsx'
 
-function UsGeographyQuiz(){
+function ProjUsGeographyQuiz(){
 
     return(
         <>
@@ -97,4 +97,4 @@ function UsGeographyQuiz(){
     );
 }
 
-export default UsGeographyQuiz
+export default ProjUsGeographyQuiz
