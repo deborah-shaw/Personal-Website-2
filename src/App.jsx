@@ -1,8 +1,9 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/home.jsx'
 import About from './pages/about.jsx'
-import HeadsInTheCloud from './pages/projHeadsInTheCloud.jsx'
-import UsGeographyQuiz from './pages/projUsGeographyQuiz.jsx'
+import ProjHeadsInTheCloud from './pages/projHeadsInTheCloud.jsx'
+import ProjUsGeographyQuiz from './pages/projUsGeographyQuiz.jsx'
+import ProjGuessTheNumber from './pages/projGuessTheNumber.jsx'
 import Cst300 from './pages/cst300.jsx'
 import Cst338 from './pages/cst338.jsx'
 import Cst363 from './pages/cst363.jsx'
@@ -23,8 +24,9 @@ function App() {
         <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/about" element={<About/>} />
-            <Route path="/projHeadsInTheCloud" element={<HeadsInTheCloud/>} />
-            <Route path="/projUsGeographyQuiz" element={<UsGeographyQuiz/>} />
+            <Route path="/projHeadsInTheCloud" element={<ProjHeadsInTheCloud/>} />
+            <Route path="/projUsGeographyQuiz" element={<ProjUsGeographyQuiz/>} />
+            <Route path="/projGuessTheNumber" element={<ProjGuessTheNumber/>} />
             <Route path="/cst300" element={<Cst300/>} />
             <Route path="/cst338" element={<Cst338/>} />
             <Route path="/cst363" element={<Cst363/>} />

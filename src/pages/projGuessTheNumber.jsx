@@ -2,7 +2,7 @@ import Header from '../components/header.jsx'
 import Nav from '../components/nav.jsx'
 import Footer from '../components/footer.jsx'
 
-function ProjUsGeographyQuiz(){
+function ProjGuessTheNumber(){
 
     return(
         <>
@@ -10,11 +10,11 @@ function ProjUsGeographyQuiz(){
             <Nav/><br/><br/>
             <div id="project">
                 <a 
-                    href="https://deborah-shaw.github.io/US-Geography-Quiz/" 
+                    href="https://deborah-shaw.github.io/Guess-the-Number-Game/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                 >
-                    <h2 id="class-title">US Geography Quiz</h2>
+                    <h2 id="class-title">Guess the Number Game</h2>
 
                     <div style={{ 
                         width: "600px", 
@@ -24,7 +24,7 @@ function ProjUsGeographyQuiz(){
                         borderRadius: "20px"  // round corners
                     }}>
                     <img 
-                        src="/Personal-Website-2/img/projUsGeographyQuiz1.jpg" 
+                        src="/Personal-Website-2/img/projGuessTheNumber1.jpg" 
                         alt="US Geography Quiz Screenshot" 
                         style={{ width: "100%", height: "auto", objectFit: "cover" }} 
                         className="rounded"
@@ -82,12 +82,12 @@ function ProjUsGeographyQuiz(){
 
                 <h4>🚀 Live Demo</h4>
                 <a 
-                    href="https://deborah-shaw.github.io/US-Geography-Quiz/" 
+                    href="https://deborah-shaw.github.io/Guess-the-Number-Game/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="btn btn-primary"
                 >
-                    Visit US Geography Quiz
+                    Visit Guess the Number Game
                 </a><br/><br/>
 
                 <h4>Status: Live Project</h4>
@@ -97,4 +97,4 @@ function ProjUsGeographyQuiz(){
     );
 }
 
-export default ProjUsGeographyQuiz
+export default ProjGuessTheNumber
