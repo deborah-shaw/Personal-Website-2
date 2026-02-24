@@ -32,52 +32,68 @@ function ProjGuessTheNumber(){
                     </div>
                 </a>
 
-                <h4>🌎 Project Description</h4>
+                <h4>📌 Project Description</h4>
                 <p> 
-                    The US Geography Quiz is an interactive web application designed to help users 
-                    test and improve their knowledge of United States geography. The platform 
-                    includes quizzes on states, capitals, regions, landmarks, and more. It provides 
-                    instant feedback, score tracking, and a user-friendly interface to make 
-                    learning engaging and effective.
+                    Guess the Number is an interactive web-based game designed to challenge 
+                    players to guess a randomly generated number between 1 and 99 within seven 
+                    attempts. The game provides instant feedback after each guess, tracks previous 
+                    guesses, and displays the number of remaining attempts. It also keeps a running 
+                    record of wins and losses, creating an engaging and competitive experience 
+                    while demonstrating fundamental front-end development concepts such as user 
+                    input handling, conditional logic, and dynamic DOM updates.
                 </p>
 
                 <h4>🕹️ Game Features</h4>
                 <ul>
-                    <li>✅ 10 diverse geography questions: multiple choice, checkboxes, and text inputs</li>
-                    <li>📊 Tracks your score and attempts using local storage</li>
-                    <li>🎯 Immediate feedback after each answer</li>
-                    <li>🏆 Displays past scores and passing status</li>
-                    <li>💬 Includes correct answers for learning</li>
-                    <li>🎨 Clean, colorful UI with Bootstrap 5 styling</li>
-                    <li>🔁 Shuffle-based questions to keep it fresh each time</li>
+                    <li>Random number generation for every new round</li>
+                    <li>Seven-attempt limit to increase challenge</li>
+                    <li>Instant feedback indicating whether the guess is too high, too low, or correct</li>
+                    <li>Display of previous guesses</li>
+                    <li>Live countdown of remaining attempts</li>
+                    <li>Win and loss tracking across multiple rounds</li>
+                    <li>Reset button to restart the game at any time</li>
                 </ul>
 
                 <h4>🛠️ Tech Used</h4>
                 <ul>
-                    <li><strong>HTML5</strong> – Structuring the quiz interface</li>
-                    <li><strong>CSS3</strong> – Custom styling</li>
-                    <li><strong>Bootstrap 5</strong> – Responsive layout & design</li>
-                    <li><strong>JavaScript</strong> – Handles quiz grading, validation, and feedback</li>
-                    <li><strong>Underscore.js</strong> – For randomizing choices in some questions</li>
-                    <li><strong>Local Storage</strong> – Tracks past scores and attempts</li>
+                    <li><strong>HTML</strong> – Structures the layout and content of the game</li>
+                    <li><strong>CSS</strong> – Styles the interface and enhances visual design</li>
+                    <li><strong>JavaScript</strong> – Implements game logic and interactivity</li>
+                    <li><strong>Google Fonts</strong> – Provides custom fonts for improved aesthetics</li>
                 </ul>
 
                 <h4>🎮 How to Play</h4>
                 <ul>
-                    <li>Answer all 10 geography questions</li>
-                    <li>Click "Submit Quiz"</li>
-                    <li>See your score and whether you passed</li>
-                    <li>Check your past attempts in the sidebar</li>
-                    <li>Refresh or revisit the page to try again</li>
+                    <li>Enter a number between 1 and 99 in the input field</li>
+                    <li>Click the “Is this correct?” button to submit your guess</li>
+                    <li>Read the feedback message to determine if your guess is too high, too low, or correct</li>
+                    <li>Continue guessing until:
+                        <ul>
+                            <li>You correctly guess the number</li>
+                            <li>You run out of seven attempts</li>
+                        </ul>
+                    </li>
+                    <li>Click “Challenge Again” to reset the game and play another round</li>
                 </ul>
 
                 <h4>🛠️ Behind the Scenes</h4>
                 <ul>
-                    <li>Math.random() and _.shuffle() for randomized options</li>
-                    <li>Event listeners and form validation for interactive play</li>
-                    <li>Local storage to preserve score history</li>
-                    <li>Conditional logic to handle multiple input types (text, select, checkboxes, radio)</li>
-                    <li>Bootstrap and semantic HTML for responsive UI</li>
+                    <li>When the game starts, JavaScript generates a random number between 1 and 99</li>
+                    <li>Each time the player submits a guess:
+                        <ul>
+                            <li>The input is validated and converted into a number</li>
+                            <li>The guess is compared to the hidden number</li>
+                            <li>Feedback is dynamically displayed in the DOM</li>
+                            <li>The attempt counter decreases</li>
+                            <li>The guess is added to the previous guesses list</li>
+                        </ul>
+                    </li>
+                    <li>If the player guesses correctly or runs out of attempts:
+                        <ul>
+                            <li>The win/loss counter updates accordingly</li>
+                            <li>The round ends until the reset button is clicked</li>
+                        </ul>
+                    </li>
                 </ul>
 
                 <h4>🚀 Live Demo</h4>
